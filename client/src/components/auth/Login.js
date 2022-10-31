@@ -29,7 +29,7 @@ const Login = ({ login, isAuthenticated }) => {
   }
   return (
     <>
-      <section className="container">
+      <section className="container login">
         {/* <div class="alert alert-danger">Invalid credentials</div> */}
         <h1 class="large text-primary">Sign In</h1>
         <p class="lead">

@@ -42,8 +42,7 @@
     padding: 2rem 3rem;
     margin-top: 7rem;
     margin-bottom: 3rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 15px;
+   
   }
   
   /* Text Styles*/
@@ -229,7 +228,6 @@
   
   /* Overlay */
   .dark-overlay {
-    background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     top: 0;
     left: 0;
@@ -337,12 +335,12 @@
   /* Landing Page */
   .landing {
     position: relative;
-    background: url('./img/showcase.jpg') no-repeat center center/cover;
     height: 100vh;
+    background: white;
   }
   
   .landing-inner {
-    color: #fff;
+    color: #333;
     height: 100%;
     width: 80%;
     margin: auto;
@@ -353,6 +351,11 @@
     text-align: center;
   }
   
+  .landing-inner p {
+    max-width: 550px;
+  }
+
+
   /* Profiles Page */
   .profile {
     display: grid;
