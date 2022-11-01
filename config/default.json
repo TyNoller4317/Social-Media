@@ -1,4 +1,0 @@
-{
-    "mongoURI": "mongodb+srv://tnoller:Nonpor321!@techserver.sncyud2.mongodb.net/?retryWrites=true&w=majority",
-    "jwtSecret": "mysecrettoken"
-}
